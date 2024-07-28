@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        .active {
+            color: red;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Todo Application</h1>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter todo..." id="input-todo">
+            <div class="input-group-append">
+                <button class="btn btn-primary" id="btn-add">Add</button>
+            </div>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item d-flex align-items-center">
+                <input type="checkbox" class="mr-2">
+                <span>Đi chơi</span>
+                <button class="btn btn-warning btn-sm ml-auto mr-2">Edit</button>
+                <button class="btn btn-danger btn-sm" >Delete</button>
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+                <input type="checkbox" class="mr-2" checked>
+                <span class="active">Làm bài tập</span>
+                <button class="btn btn-warning btn-sm ml-auto mr-2">Edit</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+            </li>
+            <li class="list-group-item d-flex align-items-center">
+                <input type="checkbox" class="mr-2">
+                <span>Đá bóng</span>
+                <button class="btn btn-warning btn-sm ml-auto mr-2">Edit</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

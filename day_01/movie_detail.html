@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header class="bg-dark header">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://motchilltv.io/logo_motchill.png" alt="" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-link active text-white" aria-current="page" href="./index.html">Trang chủ</a>
+            <a class="nav-link text-white" href="#">Phim bộ</a>
+            <a class="nav-link text-white" href="#">Phim lẻ</a>
+            <a class="nav-link text-white" href="./phimchieurap.html">Phim chiếu rạp</a>
+            <a class="nav-link text-white" href="#">Quốc gia</a>
+            <a class="nav-link text-white" href="#">Thể loại</a>
+          </div>
+          <div class="navbar-nav">
+            <a href="" class="text-white  btn-login">Đăng nhập</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="movie_detail mt-5">
+    <div class="container-fluid mt-4 mb-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a href="#">Phim chiếu rạp</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Trạng Tí Phiêu Lưu Ký</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://image.motchilltv.vc/avatar/quai-thu-ben-trong-x350.webp" class="card-img-top" alt="Movie Thumbnail">
+                   
+                </div>
+            </div>
+            <div class="col-9">
+                <h3>Trạng Tí Phiêu Lưu Ký <span class="text-warning">9.8 <i class="bi bi-star-fill"></i></span></h3>
+                <table class="table bg-info " >
+                    <tbody>
+                        <tr>
+                            <th>Thể loại:</th>
+                            <td>Phiêu lưu, Viễn tưởng, Gia đình</td>
+                        </tr>
+                        <tr>
+                            <th>Năm sản xuất:</th>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <th>Quốc gia:</th>
+                            <td>Phần Lan</td>
+                        </tr>
+                        <tr>
+                            <th>Đạo diễn:</th>
+                            <td>Huỳnh Hữu Khang</td>
+                        </tr>
+                        <tr>
+                            <th>Diễn viên:</th>
+                            <td>Xuân Nghị, Oanh Kiều, Mona Bảo Tiên, Trần Đức Anh, Vương Hoàng Long, Trung Dân, Phi Phụng, Hoàng Phi, Hiếu Hiền</td>
+                        </tr>
+                        <tr>
+                            <th>Nội dung phim:</th>
+                            <td>Trạng Tí Phiêu Lưu Ký là chuyến phiêu lưu vượt ngoài trí tưởng tượng của bộ tứ Tí - Sửu - Dần - Mẹo khi phải cùng nhau vượt qua rất nhiều thử thách để <a href="#">Xem thêm</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                
+                <a href="#" class="btn btn-danger">Xem phim</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="py-4 bg-info">
+    <div class="container-fluid">
+        <div class="mb-3 d-flex justify-content-between align-items-center">
+            <h3>Phim đề xuất</h3>
+          
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <a href="./movie_detail.html" class="movie-item text-black text-decoration-none">
+                    <div class="movie-poster">
+                        <!--  // rounded overflow-hidden có thể dùng vào movie-poster rounded để bo , còn overflow để ẩn những gì mà thg con trong nó thừa ra -->
+                        <img src="https://image.motchilltv.vc/avatar/quai-thu-ben-trong-x350.webp" alt="Quái thú">
+                    </div>
+                    <div class="movie-info">
+                        <p class="mt-2 fs-4 text">Quái thú</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="" class="movie-item text-black text-decoration-none">
+                    <div class="movie-poster">
+                        <!--  // rounded overflow-hidden có thể dùng vào movie-poster rounded để bo , còn overflow để ẩn những gì mà thg con trong nó thừa ra -->
+                        <img src="https://image.motchilltv.vc/avatar/quai-thu-ben-trong-x350.webp" alt="Quái thú">
+                    </div>
+                    <div class="movie-info">
+                        <p class="mt-2 fs-4 text">Quái thú</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="" class="movie-item text-black text-decoration-none">
+                    <div class="movie-poster">
+                        <!--  // rounded overflow-hidden có thể dùng vào movie-poster rounded để bo , còn overflow để ẩn những gì mà thg con trong nó thừa ra -->
+                        <img src="https://image.motchilltv.vc/avatar/quai-thu-ben-trong-x350.webp" alt="Quái thú">
+                    </div>
+                    <div class="movie-info">
+                        <p class="mt-2 fs-4 text">Quái thú</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="" class="movie-item text-black text-decoration-none">
+                    <div class="movie-poster">
+                        <!--  // rounded overflow-hidden có thể dùng vào movie-poster rounded để bo , còn overflow để ẩn những gì mà thg con trong nó thừa ra -->
+                        <img src="https://image.motchilltv.vc/avatar/quai-thu-ben-trong-x350.webp" alt="Quái thú">
+                    </div>
+                    <div class="movie-info">
+                        <p class="mt-2 fs-4 text">Quái thú</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="" class="movie-item text-black text-decoration-none">
+                    <div class="movie-poster">
+                        <!--  // rounded overflow-hidden có thể dùng vào movie-poster rounded để bo , còn overflow để ẩn những gì mà thg con trong nó thừa ra -->
+                        <img src="https://image.motchilltv.vc/avatar/quai-thu-ben-trong-x350.webp" alt="Quái thú">
+                    </div>
+                    <div class="movie-info">
+                        <p class="mt-2 fs-4 text">Quái thú</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="" class="movie-item text-black text-decoration-none">
+                    <div class="movie-poster">
+                        <!--  // rounded overflow-hidden có thể dùng vào movie-poster rounded để bo , còn overflow để ẩn những gì mà thg con trong nó thừa ra -->
+                        <img src="https://image.motchilltv.vc/avatar/quai-thu-ben-trong-x350.webp" alt="Quái thú">
+                    </div>
+                    <div class="movie-info">
+                        <p class="mt-2 fs-4 text">Quái thú</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+ 
+</section>
+  
+<div class="container-fluid mt-5">
+    <h4 class="mb-4">Bình luận</h4>
+    <p>Vui lòng <a href="#">đăng nhập</a> để viết bình luận</p>
+    
+    <div class="list-group">
+
+        <div class="list-group-item d-flex align-items-start no-border">
+            <div class="me-3">
+                <div class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">D</div>
+            </div>
+            <div>
+                <h6 class="mb-0">Lê Hải Dũng <small class="text-muted">29/02/2022</small></h6>
+                <p class="mb-1"><span class="text-warning">★ 10/10</span> Xuất sắc</p>
+                <p class="mb-1">nhạc như nc ốc</p>
+            </div>
+        </div>
+
+        <div class="list-group-item d-flex align-items-start no-border">
+            <div class="me-3">
+                <div class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">H</div>
+            </div>
+            <div>
+                <h6 class="mb-0">Bùi Hiên 123 <small class="text-muted">14/02/2022</small></h6>
+                <p class="mb-1"><span class="text-warning">★ 8/10</span> Rất tốt</p>
+                <p class="mb-1">phim hay</p>
+            </div>
+        </div>
+
+        <div class="list-group-item d-flex align-items-start no-border">
+            <div class="me-3">
+                <div class="rounded-circle bg-secondary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">H</div>
+            </div>
+            <div>
+                <h6 class="mb-0">Võ Văn Hùng <small class="text-muted">14/02/2022</small></h6>
+                <p class="mb-1"><span class="text-warning">★ 10/10</span> Xuất sắc</p>
+                <p class="mb-1">chán k tả nổi, xem buồn ngủ chớt</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<nav aria-label="Page navigation example">
+    <ul class="pagination  d-flex justify-content-center  mt-3">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer class="bg-dark py-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4">
+          <img src="https://motchilltv.io/logo_motchill.png" alt="" class="logo">
+          <p class="text-white mt-2">Những năm gần đây phim Đam Mỹ (BL) rất được thu hút người xem, cùng Motchill tổng
+            hợp 5 phim đam mỹ có lượt xem cao nhất năm 2023 nhé. ...</p>
+
+        </div>
+        <div class="col">
+          <div class="text-white">
+            <h5 class="text-white text-uppercase">Danh Mục</h5>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="text-white">
+            <h5 class="text-white text-uppercase">Danh Mục</h5>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-white">
+            <h5 class="text-white text-uppercase">Danh Mục</h5>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-white">
+            <h5 class="text-white text-uppercase">Danh Mục</h5>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+            <p>Phim bộ </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
